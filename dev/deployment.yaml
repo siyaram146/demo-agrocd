@@ -14,10 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-<<<<<<< HEAD
-        image: nginx
-=======
         image: httpd
->>>>>>> 9562a647efe635475d5a84ee0edc7c580afd478a
         ports:
         - containerPort: 8004
